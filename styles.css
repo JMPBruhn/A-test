@@ -1,0 +1,260 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+
+/* background color */
+body {
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* h2 define Used for articels on pages big and wide */
+h2 {
+	font-size: 22px;
+	padding-top: 10%;
+	padding-bottom: 5px;
+	padding-left: 20%;
+	padding-right: 60px;
+	margin-top: 10%;
+	margin-bottom: 40px;
+
+}
+
+.uneven{
+	font-size: 22px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 20%;
+	padding-right: 60px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: left;
+
+}
+/*Used to form the login page that leads the user to the PDA Interfcae*/
+.logintest {
+	
+	text-align: center;
+	color: white;
+	border: 3px;
+	background: darkblue;
+	font-size: 28px;
+	display: block;
+	height: 30px;
+    width: 110px;
+    padding: 24px 10px;
+    border-radius: 25px;
+    opacity: 0.7;
+    margin: 30px;
+   
+
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #0078d4;
+  font-family: Arial;
+  border-radius: 25px;
+  position: absolute;
+  right: 20%;
+  width:60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  padding: 24px 10px;
+  justify-content: space-around;
+}
+
+
+
+/* used for tyext in articels smaller than h2 */
+p {
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: justify;
+
+}
+.plast {
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 300px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: justify;
+
+}
+
+/*This an attempt to style the footer of the website */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+		max-width: 1180px;
+		margin: auto; 
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul {
+	list-style: none;
+
+}
+
+.footer {
+	background-color: #23262b;
+	padding: 70px 0;
+}
+
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	font-weight: 500;
+	position: relative;
+}
+
+.font-col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+/* login */
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+.login{
+	text-align: center;
+	border: 2px;
+	background-color: gray;
+	border-radius: 25px;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 5%;
+	margin-bottom: 20%;
+	padding: 5%;
+
+}
